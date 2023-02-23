@@ -40,7 +40,7 @@ public class Formy {
         System.out.println("Education Level - Selected");
 
         js.executeScript("window.scrollBy(0, 500)");
-        System.out.println("Scroll");
+        System.out.println("=== Scroll ===");
 
         driver.findElement(By.xpath("//*[@id=\"checkbox-3\"]")).click();
         System.out.println("Sex - Selected");
